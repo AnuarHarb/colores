@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Colores</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body id="fondo">
+    <h1>Temas</h1>
+    <button id="pill-izquierdo" class="pill left" onclick="cambiarLogoClaro()">
+      Tema claro</button
+    ><button
+      id="pill-derecho"
+      class="pill right active"
+      onclick="cambiarLogoOscuro()"
+    >
+      Tema Oscuro
+    </button>
+
+    <!-- Comentario -->
+
+    <img id="logo" src="img/logo-negro.png" />
+
+    <section>
+      <button onclick="camabiarColores('black')">Negro</button>
+      <button onclick="camabiarColores('red')">Rojo</button>
+      <button onclick="camabiarColores('blue')">Azul</button>
+    </section>
+
+    <section>
+      <div class="cuadrado"></div>
+      <div class="cuadrado"></div>
+      <div class="cuadrado"></div>
+      <div class="cuadrado"></div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
